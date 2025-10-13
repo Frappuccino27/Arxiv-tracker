@@ -1,7 +1,7 @@
 name: arxiv-digest
 
 on:
-  # 手动触发：增加一个“是否发送邮件”的输入开关（默认 false）
+  # 手动触发：增加一个“是否发送邮件”的输入开关（默认 false）问问
   workflow_dispatch:
     inputs:
       send_email:
